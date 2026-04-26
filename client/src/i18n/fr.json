@@ -1,0 +1,133 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "markets": "Marchés",
+    "analyze": "Analyser",
+    "dashboard": "Tableau de bord",
+    "login": "Connexion",
+    "register": "S'inscrire",
+    "logout": "Déconnexion"
+  },
+    "landing": {
+    "hero": "Téléchargez votre graphique. Obtenez une analyse de trading IA instantanée.",
+    "subtitle": "Assistant de trading alimenté par l'IA qui analyse vos graphiques et fournit des décisions de trading professionnelles en quelques secondes. Commencez par un essai gratuit de 7 jours, sans carte de crédit requise.",
+    "cta": "Essai Gratuit de 7 Jours",
+    "upload": "Télécharger un graphique",
+    "features": {
+      "title": "Fonctionnalités Puissantes",
+      "smart": {
+        "title": "Analyse Intelligente",
+        "desc": "L'IA analyse chaque graphique de manière unique avec une précision professionnelle"
+      },
+      "fast": {
+        "title": "Résultats Rapides",
+        "desc": "Obtenez des décisions de trading en quelques secondes, pas en heures"
+      },
+      "secure": {
+        "title": "Sécurisé et Privé",
+        "desc": "Vos données sont cryptées et ne sont jamais partagées"
+      }
+    },
+    "pricing": {
+      "title": "Tarification Simple",
+      "monthly": "59 DT/mois",
+      "features": [
+        "Analyses IA illimitées",
+        "Support prioritaire",
+        "Indicateurs avancés",
+        "Alertes de marché"
+      ]
+    },
+    "disclaimer": "Cette analyse est générée par l'IA et ne constitue pas des conseils financiers. Le trading comporte des risques."
+  },
+  "analyze": {
+    "title": "Analyse de Graphique IA",
+    "upload": "Téléchargez votre image de graphique",
+    "drag": "Glissez-déposez ou cliquez pour télécharger",
+    "formats": "PNG, JPG, JPEG (max 5Mo)",
+    "preview": "Aperçu",
+    "analyze": "Analyser le graphique",
+    "analyzing": "Analyse en cours...",
+    "results": "Résultats de l'Analyse",
+    "signal": "Signal",
+    "confidence": "Confiance",
+    "entry": "Prix d'Entrée",
+    "stopLoss": "Stop Loss",
+    "takeProfit": "Take Profit",
+    "risk": "Niveau de Risque",
+    "explanation": "Analyse",
+    "history": "Historique d'Analyse",
+    "noHistory": "Pas encore d'historique d'analyse"
+  },
+  "auth": {
+    "login": "Connexion",
+    "register": "S'inscrire",
+    "email": "Email",
+    "password": "Mot de passe",
+    "name": "Nom",
+    "submit": "Soumettre",
+    "noAccount": "Pas de compte?",
+    "hasAccount": "Déjà un compte?",
+    "trial": "Essai gratuit de 7 jours inclus"
+  },
+  "subscription": {
+    "title": "S'abonner",
+    "expired": "Votre essai a expiré",
+    "upgrade": "Passer à Premium",
+    "price": "59 DT/mois",
+    "method": "Mode de Paiement",
+    "paymentOption": "Choisissez Votre Plan",
+    "edinar": "E-Dinar",
+    "bank": "Virement Bancaire",
+    "submit": "Soumettre la Demande de Paiement",
+    "pending": "Demande de paiement soumise. En attente d'approbation."
+  },
+  "admin": {
+    "title": "Tableau de Bord Admin",
+    "users": "Utilisateurs",
+    "subscriptions": "Abonnements",
+    "analyses": "Analyses",
+    "contacts": "Messages",
+    "stats": "Statistiques",
+    "totalUsers": "Total Utilisateurs",
+    "activeSubs": "Abonnements Actifs",
+    "pendingPayments": "Paiements en Attente",
+    "totalAnalyses": "Total Analyses",
+    "approve": "Approuver",
+    "reject": "Rejeter",
+    "delete": "Supprimer"
+  },
+  "dashboard": {
+    "title": "Tableau de Bord",
+    "welcome": "Bienvenue",
+    "trial": "Statut de l'Essai",
+    "active": "Actif",
+    "expired": "Expiré",
+    "expires": "Expire",
+    "subscription": "Abonnement",
+    "history": "Historique d'Analyse"
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Envoyer le Message",
+    "success": "Message envoyé avec succès!"
+  },
+  "markets": {
+    "title": "Marchés en Direct",
+    "search": "Rechercher des marchés...",
+    "crypto": "Crypto",
+    "stocks": "Actions",
+    "forex": "Forex"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "back": "Retour"
+  }
+}
