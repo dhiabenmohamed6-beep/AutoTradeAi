@@ -1,19 +1,22 @@
 require('dotenv').config({ path: './.env' });
 const express = require('express');
-const mongoose = require('mongoose');
 const cors = require('cors');
 const path = require('path');
 
+// Initialize database connection (will log when connected)
+require('./config/db');
+
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: process.env.NODE_ENV === 'production' 
+    ? 'https://autotradeai.vercel.app' 
+    : 'http://localhost:3000',
+  credentials: true
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
-
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/autotradeai')
-  .then(() => console.log('MongoDB connected'))
-  .catch(err => console.log(err));
 
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/analysis', require('./routes/analysis'));
